@@ -1,9 +1,11 @@
-import { title } from 'process'
-
-type Props = {
+import { Title as TituloEstilo } from './styles'
+export type Props = {
   children: string
+  fontSize?: number
 }
 
-const Title = (props: Props) => <span>{props.children}</span>
+const Title = (props: Props) => (
+  <TituloEstilo fontSize={props.fontSize}>{props.children}</TituloEstilo>
+)
 
 export default Title
