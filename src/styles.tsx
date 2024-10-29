@@ -7,6 +7,7 @@ const EstiloGlobal = createGlobalStyle`
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    list-style: none;
   }
   body{
     padding-top:80px;
