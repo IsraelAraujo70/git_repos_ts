@@ -5,6 +5,9 @@ export const GithubSection = styled.div`
   margin-bottom: 64px;
   img {
     height: 157px;
-    width: 300px;
+    @media (max-width: 767px) {
+      height: auto;
+      width: 100%;
+    }
   }
 `
